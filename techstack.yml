@@ -1,0 +1,277 @@
+repo_name: Clivern/intro-to-mlt
+report_id: 3ed5dd70a426e1315084a456605e7e37
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-21T15:21:29+00:00'
+requested_by: hedss
+provider: github
+branch: main
+detected_tools_count: 21
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/Clivern/intro-to-mlt/blob/main/source/mythical-beasts-recorder/package-lock.json
+  detection_source: source/mythical-beasts-recorder/package.json
+  last_updated_by: Koenraad Verheyden
+  last_updated_on: 2022-07-13 16:59:29.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: docker-compose.yml
+  last_updated_by: Heds Simons
+  last_updated_on: 2022-03-24 00:07:35.000000000 Z
+- name: Heroku Postgres
+  description: Heroku's Database-as-a-Service. Based on the most powerful open-source
+    database, PostgreSQL
+  website_url: https://www.heroku.com/postgres
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: PostgreSQL as a Service
+  image_url: https://img.stackshare.io/service/2516/original.png
+  detection_source: docker-compose.yml
+  last_updated_by: Heds Simons
+  last_updated_on: 2022-03-24 00:07:35.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source: docker-compose.yml
+  last_updated_by: Heds Simons
+  last_updated_on: 2022-03-24 00:07:35.000000000 Z
+- name: RabbitMQ
+  description: Open source multiprotocol messaging broker
+  website_url: http://www.rabbitmq.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg
+  detection_source: docker-compose.yml
+  last_updated_by: Koenraad Verheyden
+  last_updated_on: 2022-07-13 16:59:29.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  version: 9.1.3
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/Clivern/intro-to-mlt/blob/main/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Heds Simons
+  last_updated_on: 2022-08-22 20:51:27.000000000 Z
+- name: Loki
+  description: Like Prometheus, but for logs (by the makers of Grafana)
+  website_url: https://github.com/grafana/loki
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Logging Tools
+  image_url: https://img.stackshare.io/service/10079/loki.png
+  detection_source: docker-compose.yml
+  last_updated_by: Heds Simons
+  last_updated_on: 2022-03-24 00:07:35.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source: docker-compose.yml
+  last_updated_by: Heds Simons
+  last_updated_on: 2022-05-04 00:57:51.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: source/mythical-beasts-server/package.json
+  last_updated_by: Heds Simons
+  last_updated_on: 2022-03-24 00:07:35.000000000 Z
+- name: FreeAgent
+  description: Award-winning cloud accounting designed to meet the needs of small
+    businesses, freelancers and their accountants
+  website_url: https://www.freeagent.com/
+  open_source: false
+  hosted_saas: false
+  category: Back Office
+  sub_category: Accounting
+  image_url: https://img.stackshare.io/service/1862/default_c94c32a4e30e1943b83cdf4084ca1d66ee6fa801.png
+  detection_source: docker-compose.yml
+  last_updated_by: Koenraad Verheyden
+  last_updated_on: 2022-07-13 16:59:29.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: amqplib
+  description: An AMQP 0-9-1
+  package_url: https://www.npmjs.com/amqplib
+  version: 0.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16639/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: https://github.com/Clivern/intro-to-mlt/blob/main/source/mythical-beasts-recorder/package-lock.json
+  detection_source: source/mythical-beasts-recorder/package.json
+  last_updated_by: Koenraad Verheyden
+  last_updated_on: 2022-07-13 16:59:29.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.19.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/Clivern/intro-to-mlt/blob/main/source/mythical-beasts-recorder/package-lock.json
+  detection_source: source/mythical-beasts-server/package.json
+  last_updated_by: Heds Simons
+  last_updated_on: 2022-03-24 00:07:35.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Clivern/intro-to-mlt/blob/main/source/mythical-beasts-recorder/package-lock.json
+  detection_source: source/mythical-beasts-recorder/package.json
+  last_updated_by: Koenraad Verheyden
+  last_updated_on: 2022-07-13 16:59:29.000000000 Z
+- name: pg
+  description: PostgreSQL client - pure javascript &amp; libpq with the same API
+  package_url: https://www.npmjs.com/pg
+  version: 8.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/Clivern/intro-to-mlt/blob/main/source/mythical-beasts-server/package-lock.json
+  detection_source: source/mythical-beasts-server/package.json
+  last_updated_by: Heds Simons
+  last_updated_on: 2022-03-24 00:07:35.000000000 Z
+- name: prom-client
+  description: Client for prometheus
+  package_url: https://www.npmjs.com/prom-client
+  version: 14.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18412/default_863e53b96f84b4092f7c0ba36b8cee4bf60d33fe.png
+  detection_source_url: https://github.com/Clivern/intro-to-mlt/blob/main/source/mythical-beasts-recorder/package-lock.json
+  detection_source: source/mythical-beasts-recorder/package.json
+  last_updated_by: Koenraad Verheyden
+  last_updated_on: 2022-07-13 16:59:29.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.88.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/Clivern/intro-to-mlt/blob/main/source/mythical-beasts-recorder/package-lock.json
+  detection_source: source/mythical-beasts-recorder/package.json
+  last_updated_by: Koenraad Verheyden
+  last_updated_on: 2022-07-13 16:59:29.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+- name: request-promise-native
+  description: The simplified HTTP request client 'request' with Promise support
+  package_url: https://www.npmjs.com/request-promise-native
+  version: 1.0.9
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16305/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/Clivern/intro-to-mlt/blob/main/source/mythical-beasts-recorder/package-lock.json
+  detection_source: source/mythical-beasts-recorder/package.json
+  last_updated_by: Koenraad Verheyden
+  last_updated_on: 2022-07-13 16:59:29.000000000 Z
